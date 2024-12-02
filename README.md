@@ -2,7 +2,7 @@
 
 Der Mod »Leaky« (leaky) enthält Blöcke, die angelehnt sind an einige Standard-Nodes aus »minetest_game«. Man kann aber durch manche dieser Blöcke einfach hindurchgehen, andere per Mese-Schaltung temporär unsichtbar machen.  
 
-Suche im Inventar nach »direct« für Blöcke, die man direkt durchschreiten kann (Inventar-Bild mit Fußabdruck) oder »ghost« für Blöcke, die sich mit Mese unsichtbar schalten lassen (Inventar-Bild mit gelbem Punkt). Für beide Varianten gibt es neben Stein-, Glas-, Blätter- und Grasblöcken auch Wasser- und Lavablöcke mit animierter Textur.  
+Suche im Inventar nach »direct« für Blöcke, die man direkt durchschreiten kann (Inventar-Bild mit Fußabdruck) oder nach »ghost« für Blöcke, die sich mit Mese unsichtbar schalten lassen (Inventar-Bild mit gelbem Punkt). Für beide Varianten gibt es neben Stein-, Glas-, Blätter- und Grasblöcken auch Wasser- und Lavablöcke mit animierter Textur.  
 
 Es gibt bisher keine Rezepte für die Blöcke. Daher sind sie nur mit »giveme« oder im Kreativ-Modus erreichbar. 
 
