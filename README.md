@@ -6,7 +6,7 @@ Suche im Inventar nach »leaky« für Blöcke, die man direkt durchschreiten kan
 
 Es gibt bisher keine Rezepte für die Blöcke. Daher sind sie nur mit »giveme« oder im Kreativ-Modus erreichbar. 
 
-
+<img src="screenshot.png">
 
 License:  
 Author: This mod was made by Norbert Thien, multimediamobil – Region Süd (mmm-sued), 2024  
