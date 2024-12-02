@@ -1,6 +1,6 @@
 # Leaky Nodes
 
-Der Mod »Leaky« (leaky) enthält Blöcke, die angelehnt an einige Standard-Nodes sind. Als Besonderheit kann man aber durch die Blöcke hindurchgehen (direkt oder per Mese-Schaltung).  
+Der Mod »Leaky« (leaky) enthält Blöcke, die angelehnt sind an einige Standard-Nodes aus »minetest_game« sind. Als Besonderheit kann man aber durch die Blöcke hindurchgehen (direkt oder per Mese-Schaltung).  
 
 License:  
 Author: This mod was made by Norbert Thien, multimediamobil – Region Süd (mmm-sued), 2024  
