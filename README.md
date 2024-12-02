@@ -1,6 +1,6 @@
 # Leaky Nodes
 
-Der Mod »Leaky« (leaky) enthält Blöcke, die angelehnt sind an einige Standard-Nodes aus »minetest_game«. Als Besonderheit kann man aber durch die Blöcke hindurchgehen (direkt oder per Mese-Schaltung). Suche im Inventar nach »leaky« für Blöcke, die man direkt durchschreiten kann (Inventat-Bild mit Fußabdruck) oder »ghost« für Blöcke, die sich mit Mese unsichtbar schalten lassen (Inventar-Bild mit gelbem Punkt).  
+Der Mod »Leaky« (leaky) enthält Blöcke, die angelehnt sind an einige Standard-Nodes aus »minetest_game«. Als Besonderheit kann man aber durch die Blöcke hindurchgehen (direkt oder per Mese-Schaltung). Suche im Inventar nach »leaky« für Blöcke, die man direkt durchschreiten kann (Inventat-Bild mit Fußabdruck) oder »ghost« für Blöcke, die sich mit Mese unsichtbar schalten lassen (Inventar-Bild mit gelbem Punkt). Für beide Varianten gibt es neben Stein-, Glas-, Blätter- und Grasblöcken auch Wasser- und Lavablöcke mit animierter Textur.  
 
 Es gibt bisher keine Rezepte für die Blöcke. Daher sind sie nur mit »giveme« oder im Kreativ-Modus erreichbar.  
 
