@@ -42,7 +42,7 @@ for _, row in pairs(definition_direct) do -- Schleife zum Auslesen der Tabelle �
 		drawtype = drawtype,
 		paramtype2 = "facedir", -- macht Objekt mit Schraubendreher rotierbar und richtet -Z-Seite beim Ablegen immer in Richtung des Ablegenden
 		tiles = tiles_img,
-		inventory_image = minetest.inventorycube(tiles_img[1] .. "^leaky_inv_shoes.png"), -- Inventar-Bild mit Füßen versehen
+		inventory_image = minetest.inventorycube(tiles_img[1] .. "^leaky_inv_footprint.png"), -- Inventar-Bild mit Füßen versehen
 		node_box = {
 			type = "fixed",
 			fixed = {
@@ -104,7 +104,7 @@ minetest.register_node("leaky:lava", {
 			},
 		},
 	},
-	inventory_image = minetest.inventorycube("leaky_lava.png^leaky_inv_shoes.png"), -- Inventar-Bild mit Füßen versehen
+	inventory_image = minetest.inventorycube("leaky_lava.png^leaky_inv_footprint.png"), -- Inventar-Bild mit Füßen versehen
 	node_box = {
 		type = "fixed",
 		fixed = {
@@ -149,7 +149,7 @@ minetest.register_node("leaky:water", {
 			},
 		},
 	},
-	inventory_image = minetest.inventorycube("leaky_water.png^leaky_inv_shoes.png"), -- Inventar-Bild mit Füßen versehen
+	inventory_image = minetest.inventorycube("leaky_water.png^leaky_inv_footprint.png"), -- Inventar-Bild mit Füßen versehen
 	node_box = {
 		type = "fixed",
 		fixed = {
