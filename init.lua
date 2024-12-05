@@ -3,8 +3,8 @@
 -- Media: The CC-BY-SA-3.0 license applies to textures and any other content in this project which is not source code.
 -- Notice: This mode uses concepts and code from the mod »mesecons« and textures from the mod »default« (»minetest_game«)
 
--- Stones to walk straight through
+-- Nodes to walk straight through
 dofile(minetest.get_modpath("leaky").."/leaky_direct.lua")
 
--- Make stones disappear with Mesecons
+-- Make nodes disappear with Mesecons
 dofile(minetest.get_modpath("leaky").."/leaky_mese.lua")
