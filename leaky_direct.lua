@@ -1,10 +1,10 @@
 -- Author: This mod was made by Norbert Thien, multimediamobil – Region Süd (mmm-sued), 2024
 -- Code: The LGPLv3 applies to all code in this project.
 -- Media: The CC-BY-SA-3.0 license applies to textures and any other content in this project which is not source code.
--- Notice: This mode uses code from the mod »mesecons« and textures from the mod »default« (»minetest_game«)
+-- Notice: This mode uses concepts and code from the mod »mesecons« and textures from the mod »default« (»minetest_game«)
 
--- um weitere Blöcke zu generieren, Standard-Blöcke in »luanti-5.10.0-win64\games\minetest_game\mods\default\nodes.lua« ansehen
--- Muster: {name = " ", description = " ", tiles = {" "}, drawtype = " "},
+-- to generate more blocks, see default blocks in »minetest_game\mods\default\nodes.lua«
+-- Pattern: {name = " ", description = " ", tiles = {" "}, drawtype = " "},
 
 local definition_direct = {    -- Beginn verschachtelte Tabelle
 	{name = "acacia_bush_leaves", description = "Acacia Bush Leaves", tiles = {"leaky_acacia_leaves_simple.png"}, drawtype = "allfaces_optional"},
