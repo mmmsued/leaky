@@ -1,10 +1,10 @@
 # Leaky Nodes
 
-Der Mod »Leaky« (leaky) enthält Blöcke, die angelehnt sind an einige Standard-Nodes aus »minetest_game«. Man kann aber durch manche dieser Blöcke einfach hindurchgehen, andere per Mese-Schaltung temporär unsichtbar machen.  
+The mod »Leaky« (leaky) contains blocks that are based on some standard nodes from »minetest_game«. However, you can simply walk through some of these blocks and make others temporarily invisible using Mesecons circuits.  
 
-Suche im Inventar nach »direct« für Blöcke, die man direkt durchschreiten kann (Inventar-Bild mit Fußabdruck) oder nach »ghost« für Blöcke, die sich mit Mese unsichtbar schalten lassen (Inventar-Bild mit gelbem Punkt). Für beide Varianten gibt es neben Stein-, Glas-, Blätter- und Grasblöcken auch Wasser- und Lavablöcke mit animierter Textur.  
+Search the inventory for »direct« for blocks that you can walk through directly (inventory image with a footprint) or for »ghost« for blocks that can be made invisible with Mesecons (inventory image with a yellow dot). In addition to stone, glass, leaf and grass blocks, there are also water and lava blocks with animated textures for both variants.  
 
-Es gibt bisher keine Rezepte für die Blöcke. Daher sind sie nur mit »giveme« oder im Kreativ-Modus erreichbar. 
+There are currently no recipes for the blocks. Therefore, they can only be accessed with »giveme« or in creative mode. 
 
 <img src="screenshot.png">
 
@@ -12,4 +12,4 @@ License:
 Author: This mod was made by Norbert Thien, multimediamobil – Region Süd (mmm-sued), 2024  
 Code: The LGPLv3 applies to all code in this project.  
 Media: The CC-BY-SA-3.0 license applies to textures and any other content in this project which is not source code.  
-Notice: This mode uses code from the mod »mesecons« and textures from the mod »default« (»minetest_game«)
+Notice: This mode uses concepts and code from the mod »mesecons« and textures from the mod »default« (»minetest_game«)
