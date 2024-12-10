@@ -6,7 +6,7 @@
 
 **Install**: Unzip the downloaded folder and rename it to »leaky« (if necessary). Copy the folder into your »luanti/mods« folder.  
 
-**Depends:** This mod requires »default« (part of »[minetest_game](https://content.luanti.org/packages/Minetest/minetest_game/)«) and »[mesecons](https://content.luanti.org/packages/Jeija/mesecons/)«. Optional dependency on »stairsplus« (part of »moreblocks(https://content.luanti.org/packages/Calinou/moreblocks/)«).  
+**Depends:** This mod requires »default« (part of »[minetest_game](https://content.luanti.org/packages/Minetest/minetest_game/)«) and »[mesecons](https://content.luanti.org/packages/Jeija/mesecons/)«. Optional dependency on »stairsplus« (part of »[moreblocks](https://content.luanti.org/packages/Calinou/moreblocks/)«).  
 
 **Known Issues:** There are currently no recipes for the blocks. Therefore, they can only be accessed with »giveme« or in creative mode. Some »direct« blocks are laid out as thin slabs. Occasionally this results in incorrect light refractions. The textures for lava and water could look better, both pointable. 
 
