@@ -4,31 +4,31 @@
 -- Notice: This mode uses concepts and code from the mod »mesecons« and textures from the mod »default« (»minetest_game«)
 
 -- to generate more blocks, see default blocks in »minetest_game\mods\default\nodes.lua«
--- Pattern: {name = " ", description = " ", tiles = {"leaky_ "}, drawtype = " "},
+-- Pattern: {name = " ", description = " ", tiles = {" "}, drawtype = " "},
 
 local definition_direct = {    -- Beginn verschachtelte Tabelle
-	{name = "acacia_bush_leaves", description = "Acacia Bush Leaves", tiles = {"leaky_acacia_leaves_simple.png"}, drawtype = "allfaces_optional"},
-	{name = "aspen_leaves", description = "Aspen Leaves", tiles = {"leaky_aspen_leaves.png"}, drawtype = "allfaces_optional"},
-	{name = "blueberry_bush_leaves", description = "Blueberry Bush Leaves", tiles = {"leaky_blueberry_bush_leaves.png"}, drawtype = "allfaces_optional"},
-	{name = "blueberry_bush_leaves_with_berries", description = "Blueberry Bush Leaves with Berries", tiles = {"leaky_blueberry_bush_leaves.png^leaky_blueberry_overlay.png"}, drawtype = "allfaces_optional"},
-	{name = "brick", description = "Brick", tiles = {"leaky_brick.png"}, drawtype = "nodebox"},
-	{name = "cobble", description = "Cobblestone", tiles = {"leaky_cobble.png"}, drawtype = "nodebox"},
-	{name = "desert_sandstone_brick", description = "Desert Sandstone Brick", tiles = {"leaky_desert_sandstone_brick.png"}, drawtype = "nodebox"},
-	{name = "desert_stonebrick", description = "Desert Stonebrick", tiles = {"leaky_desert_stone_brick.png"}, drawtype = "nodebox"},
-	{name = "diamondblock", description = "Diamond Block", tiles = {"leaky_diamond_block.png"}, drawtype = "nodebox"},
-	{name = "glass", description = "Glass", tiles = {"leaky_glass.png", "leaky_glass_detail.png"}, drawtype = "glasslike_framed_optional"},
-	{name = "goldblock", description = "Gold Block", tiles = {"leaky_gold_block.png"}, drawtype = "nodebox"},
-	{name = "dirt_with_grass", description = "Dirt with Grass", tiles = {"leaky_grass.png", "leaky_dirt.png", {name = "leaky_dirt.png^leaky_grass_side.png",tileable_vertical = false}}, drawtype = "nodebox"},
-	{name = "grass", description = "Grass", tiles = {"leaky_grass.png"}, drawtype = "nodebox"},
-	{name = "gravel", description = "Gravel", tiles = {"leaky_gravel.png"}, drawtype = "nodebox"},
-	{name = "bush_leaves", description = "Bush Leaves", tiles = {"leaky_leaves_simple.png"}, drawtype = "allfaces_optional"},
-	{name = "mossycobble", description = "Mossy Cobble", tiles = {"leaky_mossycobble.png"}, drawtype = "nodebox"},
-	{name = "obsidian_glass", description = "Obsidian Glass", tiles = {"leaky_obsidian_glass.png", "leaky_obsidian_glass_detail.png"}, drawtype = "glasslike_framed_optional"},
-	{name = "sandstonebrick", description = "Sand Stonebrick", tiles = {"leaky_sandstone_brick.png"}, drawtype = "nodebox"},
-	{name = "silver_sandstone_brick", description = "Silver Sandstone Brick", tiles = {"leaky_silver_sandstone_brick.png"}, drawtype = "nodebox"},
-	{name = "stone", description = "Stone", tiles = {"leaky_stone.png"}, drawtype = "nodebox"},
-	{name = "stone_block", description = "Stone Block", tiles = {"leaky_stone_block.png"}, drawtype = "nodebox"},
-	{name = "stonebrick", description = "Stone Brick", tiles = {"leaky_stone_brick.png"}, drawtype = "nodebox"},
+	{name = "acacia_bush_leaves", description = "Acacia Bush Leaves", tiles = {"default_acacia_leaves_simple.png"}, drawtype = "allfaces_optional"},
+	{name = "aspen_leaves", description = "Aspen Leaves", tiles = {"default_aspen_leaves.png"}, drawtype = "allfaces_optional"},
+	{name = "blueberry_bush_leaves", description = "Blueberry Bush Leaves", tiles = {"default_blueberry_bush_leaves.png"}, drawtype = "allfaces_optional"},
+	{name = "blueberry_bush_leaves_with_berries", description = "Blueberry Bush Leaves with Berries", tiles = {"default_blueberry_bush_leaves.png^default_blueberry_overlay.png"}, drawtype = "allfaces_optional"},
+	{name = "brick", description = "Brick", tiles = {"default_brick.png"}, drawtype = "nodebox"},
+	{name = "cobble", description = "Cobblestone", tiles = {"default_cobble.png"}, drawtype = "nodebox"},
+	{name = "desert_sandstone_brick", description = "Desert Sandstone Brick", tiles = {"default_desert_sandstone_brick.png"}, drawtype = "nodebox"},
+	{name = "desert_stonebrick", description = "Desert Stonebrick", tiles = {"default_desert_stone_brick.png"}, drawtype = "nodebox"},
+	{name = "diamondblock", description = "Diamond Block", tiles = {"default_diamond_block.png"}, drawtype = "nodebox"},
+	{name = "glass", description = "Glass", tiles = {"default_glass.png", "default_glass_detail.png"}, drawtype = "glasslike_framed_optional"},
+	{name = "goldblock", description = "Gold Block", tiles = {"default_gold_block.png"}, drawtype = "nodebox"},
+	{name = "dirt_with_grass", description = "Dirt with Grass", tiles = {"default_grass.png", "default_dirt.png", {name = "default_dirt.png^default_grass_side.png",tileable_vertical = false}}, drawtype = "nodebox"},
+	{name = "grass", description = "Grass", tiles = {"default_grass.png"}, drawtype = "nodebox"},
+	{name = "gravel", description = "Gravel", tiles = {"default_gravel.png"}, drawtype = "nodebox"},
+	{name = "bush_leaves", description = "Bush Leaves", tiles = {"default_leaves_simple.png"}, drawtype = "allfaces_optional"},
+	{name = "mossycobble", description = "Mossy Cobble", tiles = {"default_mossycobble.png"}, drawtype = "nodebox"},
+	{name = "obsidian_glass", description = "Obsidian Glass", tiles = {"default_obsidian_glass.png", "default_obsidian_glass_detail.png"}, drawtype = "glasslike_framed_optional"},
+	{name = "sandstonebrick", description = "Sand Stonebrick", tiles = {"default_sandstone_brick.png"}, drawtype = "nodebox"},
+	{name = "silver_sandstone_brick", description = "Silver Sandstone Brick", tiles = {"default_silver_sandstone_brick.png"}, drawtype = "nodebox"},
+	{name = "stone", description = "Stone", tiles = {"default_stone.png"}, drawtype = "nodebox"},
+	{name = "stone_block", description = "Stone Block", tiles = {"default_stone_block.png"}, drawtype = "nodebox"},
+	{name = "stonebrick", description = "Stone Brick", tiles = {"default_stone_brick.png"}, drawtype = "nodebox"},
 } -- Ende verschachtelte Tabelle
 
 for _, row in pairs(definition_direct) do -- Schleife zum Auslesen der Tabelle »definition«, _ (Unterstrich): übliches formales Vorgehen, wenn ein Rückgabewert nicht benötigt wird, aber abgefangen werden muss
@@ -85,7 +85,7 @@ minetest.register_node("leaky:direct_lava", {
 	paramtype2 = "facedir", -- macht Objekt mit Schraubendreher rotierbar und richtet -Z-Seite beim Ablegen immer in Richtung des Ablegenden
 	tiles = {
 		{
-			name = "leaky_lava.png",
+			name = "default_lava_source_animated.png",
 			backface_culling = false,
 			animation = {
 				type = "vertical_frames",
@@ -95,7 +95,7 @@ minetest.register_node("leaky:direct_lava", {
 			},
 		},
 		{
-			name = "leaky_lava.png",
+			name = "default_lava_flowing_animated.png",
 			backface_culling = true,
 			animation = {
 				type = "vertical_frames",
@@ -105,7 +105,7 @@ minetest.register_node("leaky:direct_lava", {
 			},
 		},
 	},
-	inventory_image = minetest.inventorycube("leaky_lava.png^leaky_inv_footprint.png"), -- Inventar-Bild mit Füßen versehen
+	inventory_image = minetest.inventorycube("default_lava.png^leaky_inv_footprint.png"), -- Inventar-Bild mit Füßen versehen
 	node_box = {
 		type = "fixed",
 		fixed = {
@@ -136,7 +136,7 @@ minetest.register_node("leaky:direct_water", {
 				type = "vertical_frames",
 				aspect_w = 16,
 				aspect_h = 16,
-				length = 3.0,
+				length = 2.0, -- bei mir 3.0
 			},
 		},
 		{
@@ -146,11 +146,11 @@ minetest.register_node("leaky:direct_water", {
 				type = "vertical_frames",
 				aspect_w = 16,
 				aspect_h = 16,
-				length = 3.0,
+				length = 2.0,
 			},
 		},
 	},
-	inventory_image = minetest.inventorycube("leaky_water.png^leaky_inv_footprint.png"), -- Inventar-Bild mit Füßen versehen
+	inventory_image = minetest.inventorycube("default_water.png^leaky_inv_footprint.png"), -- Inventar-Bild mit Füßen versehen
 	node_box = {
 		type = "fixed",
 		fixed = {
